@@ -269,4 +269,8 @@ void cam_poll(void)
     } else if (cmd == 'P') {
         toggle_pol(DCMI_CR_PCKPOL);
     }
+    else if(cmd == 'Y')
+	{
+    	constant_data();
+    }
 }

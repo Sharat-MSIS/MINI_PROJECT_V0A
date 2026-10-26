@@ -304,10 +304,12 @@ C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.external
 ../Middlewares/Third_Party/EdgeImpulse_Test_V05_MachineLearning/edgeimpulse/edge-impulse-sdk/classifier/ei_run_classifier.h:1084:29:EI_IMPULSE_ERROR {anonymous}::run_classifier(ei::signal_t*, ei_impulse_result_t*, bool)	1
 ../Middlewares/Third_Party/EdgeImpulse_Test_V05_MachineLearning/edgeimpulse/edge-impulse-sdk/classifier/ei_run_classifier.h:1117:42:EI_IMPULSE_ERROR {anonymous}::run_classifier(ei_impulse_handle_t*, ei::signal_t*, ei_impulse_result_t*, bool)	1
 ../Middlewares/Third_Party/EdgeImpulse_Test_V05_MachineLearning/edgeimpulse/edge-impulse-sdk/classifier/ei_run_classifier.h:1299:42:EI_IMPULSE_ERROR {anonymous}::run_impulse(ei_impulse_result_t*, std::function<void(float*, unsigned int)>, bool)	6
-../Core/Src/cam_classify.cpp:24:13:void vprint(const char*, va_list)	2
-../Core/Src/cam_classify.cpp:32:6:)	1
-../Core/Src/cam_classify.cpp:45:12:int get_camera_data(size_t, size_t, float*)	2
-../Core/Src/cam_classify.cpp:66:17:void cam_classify_once()	5
+../Core/Src/cam_classify.cpp:28:9:int get_feature_data(size_t, size_t, float*)	1
+../Core/Src/cam_classify.cpp:34:13:void vprint(const char*, va_list)	2
+../Core/Src/cam_classify.cpp:42:6:)	1
+../Core/Src/cam_classify.cpp:55:12:int get_camera_data(size_t, size_t, float*)	2
+../Core/Src/cam_classify.cpp:76:17:void cam_classify_once()	5
+../Core/Src/cam_classify.cpp:112:17:void constant_data()	4
 C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/bits/std_function.h:239:5:constexpr std::_Function_base::_Function_base()	1
 C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/bits/std_function.h:435:2:)>::function(_Functor&&) [with _Functor = void (&)(void*); _Constraints = void; _Res = void; _ArgTypes = {void*}]	2
 C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/bits/unique_ptr.h:241:40:std::__uniq_ptr_data<void, std::function<void(void*)>, true, true>::__uniq_ptr_data(std::__uniq_ptr_impl<void, std::function<void(void*)> >::pointer, _Del&&) [with _Del = std::function<void(void*)>][inherited from std::__uniq_ptr_impl<void, std::function<void(void*)> >]	1
@@ -1255,7 +1257,7 @@ C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.external
 C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/bits/move.h:97:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = ei_impulse_result_bounding_box_t&]	1
 ../Middlewares/Third_Party/EdgeImpulse_Test_V05_MachineLearning/edgeimpulse/edge-impulse-sdk/dsp/ei_flatten.h:41:7:flatten_class::~flatten_class()	1
 ../Middlewares/Third_Party/EdgeImpulse_Test_V05_MachineLearning/edgeimpulse/edge-impulse-sdk/dsp/ei_flatten.h:41:7:virtual flatten_class::~flatten_class()	1
-../Core/Src/cam_classify.cpp:101:1:void __static_initialization_and_destruction_0()	1
-../Core/Src/cam_classify.cpp:101:1:void __static_initialization_and_destruction_1()	1
-../Core/Src/cam_classify.cpp:101:1:cpp)	1
-../Core/Src/cam_classify.cpp:101:1:cpp)	1
+../Core/Src/cam_classify.cpp:135:1:void __static_initialization_and_destruction_0()	1
+../Core/Src/cam_classify.cpp:135:1:void __static_initialization_and_destruction_1()	1
+../Core/Src/cam_classify.cpp:135:1:cpp)	1
+../Core/Src/cam_classify.cpp:135:1:cpp)	1

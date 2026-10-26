@@ -14,4 +14,4 @@
 ../Core/Src/cam_capture.c:153:13:diag_capture	2
 ../Core/Src/cam_capture.c:172:13:pin_activity	14
 ../Core/Src/cam_capture.c:208:6:cam_start	2
-../Core/Src/cam_capture.c:229:6:cam_poll	15
+../Core/Src/cam_capture.c:229:6:cam_poll	16

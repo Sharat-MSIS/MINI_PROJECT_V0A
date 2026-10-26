@@ -13,6 +13,7 @@ extern "C" {
 #endif
 
 void cam_classify_once(void);   /* capture one frame, run classifier, print result */
+void constant_data(void);
 
 #ifdef __cplusplus
 }

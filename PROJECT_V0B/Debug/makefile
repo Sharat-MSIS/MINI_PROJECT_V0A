@@ -158,8 +158,8 @@ all: main-build
 main-build: PROJECT_V0B.elf secondary-outputs
 
 # Tool invocations
-PROJECT_V0B.elf PROJECT_V0B.map: $(OBJS) $(USER_OBJS) D:\MSIS_2026\MINI\ PROJECT\GIT_REPO\MINI_PROJECT_V0A\PROJECT_V0B\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "PROJECT_V0B.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\MSIS_2026\MINI PROJECT\GIT_REPO\MINI_PROJECT_V0A\PROJECT_V0B\STM32F446RETX_FLASH.ld" -Wl,-Map="PROJECT_V0B.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+PROJECT_V0B.elf PROJECT_V0B.map: $(OBJS) $(USER_OBJS) D:\Sharat\Project\MINI_PROJECT_V0A\PROJECT_V0B\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "PROJECT_V0B.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Sharat\Project\MINI_PROJECT_V0A\PROJECT_V0B\STM32F446RETX_FLASH.ld" -Wl,-Map="PROJECT_V0B.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
