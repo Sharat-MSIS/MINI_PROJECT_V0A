@@ -1,0 +1,17 @@
+../Core/Src/cam_capture.c:21:26:ov7670_read	2
+../Core/Src/cam_capture.c:28:26:ov7670_write	1
+../Core/Src/cam_capture.c:47:26:ov7670_init	4
+../Core/Src/cam_capture.c:59:13:ov7670_set_colorbar	2
+../Core/Src/cam_capture.c:66:13:uart_print	1
+../Core/Src/cam_capture.c:71:13:send_frame	1
+../Core/Src/cam_capture.c:87:13:dcmi_crop_init	1
+../Core/Src/cam_capture.c:95:26:capture_frame	4
+../Core/Src/cam_capture.c:120:5:cam_grab	2
+../Core/Src/cam_capture.c:121:16:cam_frame	1
+../Core/Src/cam_capture.c:124:13:print_id	1
+../Core/Src/cam_capture.c:135:13:print_pol	4
+../Core/Src/cam_capture.c:146:13:toggle_pol	1
+../Core/Src/cam_capture.c:153:13:diag_capture	2
+../Core/Src/cam_capture.c:172:13:pin_activity	14
+../Core/Src/cam_capture.c:208:6:cam_start	2
+../Core/Src/cam_capture.c:229:6:cam_poll	15
